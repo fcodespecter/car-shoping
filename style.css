@@ -1,33 +1,47 @@
 body
 {
-    background-color: black;
-    color: white;
+    font-family:Helvetica;
 }
 .hul
 {
     list-style: none;
     text-decoration: none;
     margin-top: 0px;
-    margin-left: 30px;
+    margin-left: 0px;
     
 }
 .hul li
 {
     display: inline-block;
     padding-left: 10px;
-
+    font-size: 12px;
 }
-.bodyphoto img
+.img1
 {
-    height: 150px;
-    width: 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 45px;
+    position: block;
 }
-.royal
+.main h3
 {
-    position: inline-block;
+    float: right;
+    margin-right: 1115px;
 }
-.img2 
+.main ul
 {
-        height: 70px;
-        width: 70px;
+    margin-left: 220px;
+}
+.main li
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    
+    word-spacing: 20px;
+   
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
 }
