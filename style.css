@@ -8,7 +8,7 @@ body
     text-decoration: none;
     margin-top: 0px;
     margin-left: 0px;
-    
+    opacity: 90%;
 }
 .hul li
 {
@@ -23,25 +23,33 @@ body
     border-radius: 50px;
     margin-left: 45px;
     position: block;
+    float: left;
 }
 .main h3
 {
-    float: right;
-    margin-right: 1115px;
+    float: left;
+    margin-left: 5px;
+    padding-top: 8px;
+    /* font-size: 17px; */
+    
 }
-.main ul
+.ul table ul
 {
-    margin-left: 220px;
+    
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 23px;
+
 }
-.main li
+/* a problem ocured */
+.ul table ul li
 {
+    display: inline-block;
     list-style: none;
     text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    
-    word-spacing: 20px;
-   
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 0px;
+}
+.ul table .uc
+{
+    padding-left: 25px;;
 }
