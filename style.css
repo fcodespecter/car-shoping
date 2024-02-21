@@ -53,3 +53,48 @@ body
 {
     padding-left: 25px;;
 }
+#headhr
+{
+    opacity: 20%;
+}
+hr
+{
+    opacity: 40%;
+}
+.mainimg
+{
+    width: 70em;
+    height:28rem;
+    margin-top: 15px;
+    margin-left: 70px;
+    
+}
+
+ul {
+    list-style: none;
+}
+ ul li {
+    display: inline-block;
+ }
+
+.btnLink {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.btnLink:hover {
+    font-weight: bolder;
+}
+
+.btnSignin{
+    background-color: orange;
+    color: black;
+}
+.mainp img
+{
+    width: 95%;
+    height: 400px;
+    margin-left: 45px;
+}
