@@ -42,7 +42,6 @@ body
     margin-top: 23px;
 
 }
-/* a problem ocured */
 .ul table ul li
 {
     display: inline-block;
@@ -77,6 +76,7 @@ ul {
     display: inline-block;
  }
 
+
 .btnLink {
     padding: 5px;
     margin: 5px;
@@ -97,4 +97,10 @@ ul {
     width: 95%;
     height: 400px;
     margin-left: 45px;
+}
+.div
+{
+border: 2px;
+color: black;
+background-color: yellow;
 }
