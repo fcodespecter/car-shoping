@@ -20,7 +20,7 @@ body
 {
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     margin-left: 45px;
     position: block;
     float: left;
@@ -33,10 +33,17 @@ body
     /* font-size: 17px; */
     
 }
+.ul
+{
+        background-image: url(photos/all.jpg);
+        background-origin: border-box;
+}
+
 .ul table ul
 {
     
     margin-left: 100px;
+    margin-right: 10px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 23px;
@@ -52,7 +59,16 @@ body
 {
     padding-left: 25px;;
 }
-#headhr
+.form
+{
+    border: 10px;
+    border-color: black;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+
+#head hr
 {
     opacity: 20%;
 }
@@ -100,7 +116,47 @@ ul {
 }
 .div
 {
-border: 2px;
+border: 2px solid;
 color: black;
 background-color: yellow;
+}
+.form .postcode
+{
+    width: 90px;
+    height: 30px;
+}
+.form select
+{
+    width: 90px;
+    height: 36px;
+}
+.search
+{
+    width: 90px;
+    height: 25px;
+    background-color: whitesmoke;
+    width: 150px;
+    
+}
+.search:hover 
+{
+        color: red;
+        text-shadow: 5px;
+        font-display:calc(5);
+        font-style: italic;
+        border: 2px solid;
+        border-color: darkred;
+        background-color: black;
+
+
+}
+.cash
+{
+    width: 95px;
+    height: 35px;
+}
+.finance
+{
+    width: 95px;
+    height: 35px;
 }
