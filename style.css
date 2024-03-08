@@ -61,13 +61,18 @@ body
 }
 .form
 {
-    border: 10px;
-    border-color: black;
-    margin-left: 30px;
+    border: 2px solid;
     text-align: center;
-    
+    width: 23%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 2%;
+    background-color:bisque;
 }
-
+.fs
+{
+    font-size: larger;
+}
 #head hr
 {
     opacity: 20%;
@@ -120,43 +125,45 @@ border: 2px solid;
 color: black;
 background-color: yellow;
 }
-.form .postcode
+.cash
 {
-    width: 90px;
-    height: 30px;
+    background-color: whitesmoke ;
+    border: 1px solid gray;
 }
-.form select
+.finance
 {
-    width: 90px;
-    height: 36px;
+    background-color:whitesmoke;
+    border: 1px solid grey;
 }
 .search
 {
-    width: 90px;
-    height: 25px;
-    background-color: whitesmoke;
-    width: 150px;
+    font-size: large;
+    width: 80%;
+    height: 40px;
+    background-color: blue;
     
 }
 .search:hover 
 {
-        color: red;
+        color: black;
+        
         text-shadow: 5px;
         font-display:calc(5);
         font-style: italic;
         border: 2px solid;
-        border-color: darkred;
-        background-color: black;
+        border-color: blue;
+        background-color:darkcyan;
 
 
 }
-.cash
+.df
 {
-    width: 95px;
-    height: 35px;
-}
-.finance
-{
-    width: 95px;
-    height: 35px;
+    width: 90%;
+    height: 10%;
+    margin-left: 3%;
+    background-image: url(photos/all.jpg);
+    background-position: center;
+    background-origin: border-box;
+    padding-left: 30px;
+
 }
