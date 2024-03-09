@@ -141,7 +141,7 @@ background-color: yellow;
     width: 80%;
     height: 40px;
     background-color: blue;
-    
+    border-color: blue;
 }
 .search:hover 
 {
@@ -164,6 +164,13 @@ background-color: yellow;
     background-image: url(photos/all.jpg);
     background-position: center;
     background-origin: border-box;
-    padding-left: 30px;
+    padding-left: 150px;
 
+}
+.text
+{
+    float: right;
+    margin-right: 25%;
+    margin-top: 12%;
+    color:black;
 }
