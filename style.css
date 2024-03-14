@@ -24,6 +24,7 @@ body
     margin-left: 45px;
     position: block;
     float: left;
+    border-radius: 50px;
 }
 .main h3
 {
@@ -173,4 +174,22 @@ background-color: yellow;
     margin-right: 25%;
     margin-top: 12%;
     color:black;
+}
+.car h2
+{
+        font-weight: 100;
+}
+.car
+{
+    text-align: center;
+}
+.im img
+{
+    width: 20%;
+    height: 20%;
+    border: 0.5px solid black;
+}
+#make 
+{
+    text-transform:capitalize;
 }
