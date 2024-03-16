@@ -195,15 +195,22 @@ background-color: yellow;
 }
 .c1
 {
-
+    text-align: center;
     width: 30%;
     height: 30%;
     border: 0.5px solid;
     border-color: black;
     border-radius: 1px;
     float: left;
-    margin-left: 40px;
+    margin-left: 37px;
 }
+.c1:hover
+{
+    border-color: cyan;
+    width: 31%;
+    height: 31%;
+}
+
 .f1
 {
     text-indent: 30px;
